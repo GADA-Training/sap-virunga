@@ -1,0 +1,10 @@
+SAP-Virunga : passage à MySQL (TiDB Cloud) - étapes 4 et 5 du canevas
+
+1) Dans MySQL Workbench (connexion TiDB), exécuter mise_a_jour_schema.sql (une seule fois).
+2) Copier .streamlit/secrets.toml.example en .streamlit/secrets.toml, puis remplir host et password
+   (bouton « Connect » de TiDB Cloud). Ne jamais publier ce fichier.
+3) Dans le terminal du projet (venv activé) :
+       pip install -r requirements.txt
+       python migrer_json_vers_mysql.py
+4) Lancer : streamlit run app.py   (sans secrets.toml, l'application reste en mode fichiers JSON)
+5) Vérifier dans Workbench : SELECT COUNT(*) sur comptes, journal, etc.

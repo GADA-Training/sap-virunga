@@ -1,0 +1,130 @@
+{
+ "arsene.fazili": {
+  "nom": "FAZILI BAGALWA Arsène",
+  "role": "admin",
+  "titre": "Encadreur",
+  "email": "faziliarsene2@gmail.com",
+  "bio": "",
+  "tel": "",
+  "photo": "",
+  "sel": "69cfe5916512cbc9bb691280449c7956",
+  "hash": "e875296a6d8e0da52598de00ee3fd75229fb10df9dea836f71100043778827ae",
+  "doit_changer": true
+ },
+ "monfort.bagalwa": {
+  "nom": "BAGALWA RUKEZA Monfort",
+  "role": "admin",
+  "titre": "Encadreur",
+  "email": "montfortbagalwa2024@gmail.com",
+  "bio": "",
+  "tel": "",
+  "photo": "",
+  "sel": "4257898ba405fb68ffec37ab0d4159f6",
+  "hash": "8ff131198c9a5f5fa1c3520f49aa5172ac24312050daf1496652c766081e486b",
+  "doit_changer": true
+ },
+ "valentin.chishesa": {
+  "nom": "CHISHESA MUGISHO Valentin",
+  "role": "stagiaire",
+  "titre": "Stagiaire · Master 1 UEA",
+  "email": "arielchishesa@gmail.com",
+  "canal": 1,
+  "sites": [
+   "Nyiragongo"
+  ],
+  "sujet": "Déformation du sol au Nyiragongo et modèle de détection d'anomalies",
+  "livrables": "Interférogramme et carte de déformation (n° 5) ; prototype (n° 8)",
+  "bio": "",
+  "tel": "",
+  "photo": "",
+  "sel": "2a7983fb7415d886f4a9963820877e80",
+  "hash": "9de28d909a838c109bd03ecfa931e86d681d9fbbf0c08d78904e992483d7f4ed",
+  "doit_changer": false
+ },
+ "lygie.wenoka": {
+  "nom": "W'ENOKA HWABA Lygie",
+  "role": "stagiaire",
+  "titre": "Stagiaire · Master 1 UEA",
+  "email": "hwabalygie@gmail.com",
+  "canal": 1,
+  "sites": [
+   "Renga",
+   "Shasha"
+  ],
+  "sujet": "Déformations du sol dans les bassins de Renga et de Shasha ; chaîne automatique et interface",
+  "livrables": "Prototype (n° 8) ; rapport (n° 10)",
+  "bio": "",
+  "tel": "",
+  "photo": "",
+  "sel": "3b51d79c4f8236f67ba13644415431e7",
+  "hash": "f592ca83dde884c8b0ecc75be79804893b56987a36fe2b9826f76b8851c67e9e",
+  "doit_changer": true
+ },
+ "christelle.cibalonza": {
+  "nom": "CIBALONZA Christelle Bagula",
+  "role": "stagiaire",
+  "titre": "Stagiaire · Master 1 UEA",
+  "email": "bagulachristelle24@gmail.com",
+  "canal": 2,
+  "sites": [
+   "Nyamulagira"
+  ],
+  "sujet": "Changements de surface liés au Nyamulagira et habitat du gorille de montagne (Mikeno, 2010–2025)",
+  "livrables": "Carte thématique (n° 6) ; analyse (n° 7)",
+  "bio": "",
+  "tel": "",
+  "photo": "",
+  "sel": "13c45261180ffb75f16bddef084f4fb8",
+  "hash": "7f678b1604f6db84e94e22b53090e45b766d1bd2b9c1c5c3d6b1b5dd55718199",
+  "doit_changer": true
+ },
+ "grace.kahindo": {
+  "nom": "KAHINDO Grâce",
+  "role": "stagiaire",
+  "titre": "Stagiaire · Master 1 UEA",
+  "email": "Theresakahindograce@gmail.com",
+  "canal": 3,
+  "sites": [
+   "Nyamulagira"
+  ],
+  "sujet": "Perturbations du Nyamulagira, fragmentation et connectivité des forêts (2000–2025)",
+  "livrables": "Analyse avec graphique ou tableau (n° 7)",
+  "bio": "",
+  "tel": "",
+  "photo": "",
+  "sel": "a3c5a67dd757706897bf1f9b40b9c18a",
+  "hash": "1ea974e62971857cc61995b5345c02bbbda2f6ac18a472c4a9c084485a35785e",
+  "doit_changer": true
+ },
+ "ornella.owene": {
+  "nom": "OWENE Ornella Mukome",
+  "role": "stagiaire",
+  "titre": "Stagiaire · Master 1 UEA",
+  "email": "oweneornellamukome@gmail.com",
+  "canal": 4,
+  "sites": [
+   "Kihira",
+   "Shasha"
+  ],
+  "sujet": "Érosion hydrique dans les bassins de Kihira et de Shasha (2015–2025)",
+  "livrables": "Carte thématique (n° 6) ; fiche de communication (n° 9)",
+  "bio": "",
+  "tel": "",
+  "photo": "",
+  "sel": "93df21149dc6f46744863d615a7ec9ac",
+  "hash": "5a2c720e905c8162d1266811794732b66b98b9b4e95f7d35982ba46164d013b4",
+  "doit_changer": true
+ },
+ "visiteur": {
+  "nom": "Observateur",
+  "role": "visiteur",
+  "titre": "Visiteur (lecture seule)",
+  "email": "",
+  "bio": "",
+  "tel": "",
+  "photo": "",
+  "sel": "469ea41de98fb8e80bf4b1b3d07918cd",
+  "hash": "1096f16de3bb5124cee3a6bf1cb14244d8f81448f9482f74671e343e084ff3d0",
+  "doit_changer": false
+ }
+}
