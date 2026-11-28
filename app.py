@@ -1,3 +1,4 @@
+from page_hydro_virunga import rendre_page_hydro
 import streamlit as st
 import auth
 from style import config, barre_laterale, theme, entete, verre
@@ -62,3 +63,7 @@ if auth.est_admin(u):
 
 pg = st.navigation(menu, position="top")
 pg.run()
+
+# Accès direct à la page Hydrologie Virunga
+if st.sidebar.toggle("Hydrologie Virunga", value=False, key="toggle_hydro_virunga"):
+    rendre_page_hydro()

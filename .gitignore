@@ -7,3 +7,6 @@ data/depots/
 data/valides/
 data/demo_sauvegarde.csv
 assets/profils/
+
+hydro_analyse/**/*.tif
+hydro_analyse/*.tif

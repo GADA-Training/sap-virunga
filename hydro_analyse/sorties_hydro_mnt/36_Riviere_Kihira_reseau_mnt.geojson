@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "36_Riviere_Kihira_reseau_mnt",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 36, "nom": "Riviere Kihira" }, "geometry": { "type": "LineString", "coordinates": [ [ 29.047608616939407, -1.570210200876718 ], [ 29.047339122354174, -1.570479695461954 ] ] } },
+{ "type": "Feature", "properties": { "id": 36, "nom": "Riviere Kihira" }, "geometry": { "type": "LineString", "coordinates": [ [ 29.047878111524643, -1.570210200876718 ], [ 29.047608616939407, -1.570210200876718 ] ] } },
+{ "type": "Feature", "properties": { "id": 36, "nom": "Riviere Kihira" }, "geometry": { "type": "LineString", "coordinates": [ [ 29.048147606109879, -1.570210200876718 ], [ 29.047878111524643, -1.570210200876718 ] ] } },
+{ "type": "Feature", "properties": { "id": 36, "nom": "Riviere Kihira" }, "geometry": { "type": "LineString", "coordinates": [ [ 29.048417100695115, -1.570210200876718 ], [ 29.048147606109879, -1.570210200876718 ] ] } },
+{ "type": "Feature", "properties": { "id": 36, "nom": "Riviere Kihira" }, "geometry": { "type": "LineString", "coordinates": [ [ 29.048686595280351, -1.570210200876718 ], [ 29.048417100695115, -1.570210200876718 ] ] } },
+{ "type": "Feature", "properties": { "id": 36, "nom": "Riviere Kihira" }, "geometry": { "type": "LineString", "coordinates": [ [ 29.048956089865587, -1.570210200876718 ], [ 29.048686595280351, -1.570210200876718 ] ] } },
+{ "type": "Feature", "properties": { "id": 36, "nom": "Riviere Kihira" }, "geometry": { "type": "LineString", "coordinates": [ [ 29.047069627768938, -1.570479695461954 ], [ 29.047069627768938, -1.570749190047189 ] ] } },
+{ "type": "Feature", "properties": { "id": 36, "nom": "Riviere Kihira" }, "geometry": { "type": "LineString", "coordinates": [ [ 29.047339122354174, -1.570479695461954 ], [ 29.047069627768938, -1.570479695461954 ] ] } }
+]
+}
