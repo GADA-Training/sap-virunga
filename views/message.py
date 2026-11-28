@@ -50,3 +50,6 @@ if statut == "valide":
 else:
     st.warning("Diffusion bloquée : le message doit d'abord être validé par l'encadreur de l'OVG."
                + (" Le niveau Rouge exige une validation systématique." if r.niveau == "Rouge" else ""))
+
+import auth, espace_bureau
+espace_bureau.afficher_feuilles_personnalisables("ressources", "Ressources", auth.courant())

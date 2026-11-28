@@ -16,3 +16,5 @@ with b:
           "<p>Les coordonnées de l'équipe et de l'OVG sont communiquées par l'encadreur de l'OVG.</p>")
     verre("<div class='eyebrow'>Comment citer</div>"
           "<p>SAP-Virunga (2026). Prototype de système d'alerte précoce, OVG × UEA, Goma.</p>")
+import auth, espace_bureau
+espace_bureau.afficher_feuilles_personnalisables("informations", "Informations et contacts", auth.courant())

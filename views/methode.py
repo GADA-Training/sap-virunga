@@ -22,3 +22,5 @@ for nv, txt in [("Vert", "score 0 à 39 · D < 2"), ("Jaune", "score 40 à 59 ·
                 ("Rouge", "score 80 à 100 · D ≥ 4, persistance sur deux observations et deux sources"),
                 ("Indéterminé", "sans score · qualité < 0,4 ou données manquantes")]:
     verre(f"{badge(nv)} <small>{txt}</small><p>{ACTION[nv]}</p>")
+import auth, espace_bureau
+espace_bureau.afficher_feuilles_personnalisables("ressources", "Ressources", auth.courant())
