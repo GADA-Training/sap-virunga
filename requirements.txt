@@ -4,3 +4,10 @@ plotly>=5.20
 pydeck>=0.9
 pillow>=10.0
 pymysql>=1.1.0
+folium
+streamlit-folium
+geopandas
+rasterio
+openpyxl
+matplotlib
+numpy
