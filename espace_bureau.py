@@ -451,7 +451,7 @@ def afficher_feuilles_personnalisables(section_cle: str, titre_section: str, u: 
 
 
 def afficher_organigramme_et_bios(u: dict | None):
-    st.subheader("Organigramme de l'équipe et biographies")
+    st.subheader("Equipe")
     st.caption("Cliquez sur un membre pour lire sa biographie complète. Les visiteurs consultent en lecture seule ; seuls l'encadreur (admin) ou le stagiaire/membre concerné selon son bureau peuvent modifier.")
 
     comptes_map = auth.comptes()

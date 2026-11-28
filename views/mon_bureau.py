@@ -192,7 +192,7 @@ with T["📓 Journal"]:
 
 
 st.markdown("---")
-t_org, t_dep, t_blog = st.tabs(["?? Organigramme & Bios", "?? D?p?ts & Galerie", "?? Blog Markdown"])
+t_org, t_dep, t_blog = st.tabs(["?? Equipe", "?? D?p?ts & Galerie", "?? Blog Markdown"])
 with t_org:
     espace_bureau.afficher_organigramme_et_bios(u)
 with t_dep:
