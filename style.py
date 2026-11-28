@@ -289,14 +289,17 @@ def hero(legende):
     images = sorted(p for p in dossier_carrousel.iterdir() if p.suffix.lower() in (".png", ".jpg", ".jpeg"))
     if images:
         n = len(images)
-        total, pause, fondu = n * 5, 100/n - (20/n), 100/n
+        duree, fondu_s = 6, 1.2            # secondes par image / durée du fondu enchaîné
+        total = n * duree
+        p1, p2, p3 = fondu_s / total * 100, duree / total * 100, (duree + fondu_s) / total * 100
         css_carrousel = f"""<style>
-        .carrousel {{ position: relative; width: 100%; height: 380px; overflow: hidden; }}
+        .carrousel {{ position: relative; width: 100%; height: 380px; overflow: hidden; background: #0b1a2e; }}
         .carrousel .slide {{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; animation: fade {total}s infinite; }}
         .carrousel .slide img {{ width: 100%; height: 100%; object-fit: cover; }}
-        @keyframes fade {{ 0% {{ opacity: 0; }} 5% {{ opacity: 1; }} {pause}% {{ opacity: 1; }} {fondu}% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}
+        @keyframes fade {{ 0% {{ opacity: 0; }} {p1:.3f}% {{ opacity: 1; }} {p2:.3f}% {{ opacity: 1; }} {p3:.3f}% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}
+        @media (prefers-reduced-motion: reduce) {{ .carrousel .slide {{ animation: none; }} .carrousel .slide:first-child {{ opacity: 1; }} }}
         """
-        for i in range(n): css_carrousel += f".carrousel .slide:nth-child({i+1}) {{ animation-delay: {i * 5}s; }}\n"
+        for i in range(n): css_carrousel += f".carrousel .slide:nth-child({i+1}) {{ animation-delay: {i * duree}s; }}\n"
         css_carrousel += "</style>"
         html_images = "".join(f'<div class="slide"><img src="{_uri(p.name, sub="carrousel")}"></div>' for p in images)
         st.markdown(css_carrousel, unsafe_allow_html=True)
