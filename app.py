@@ -46,6 +46,7 @@ menu = {
     ],
     "Informations et contacts": [
         st.Page("views/apropos.py", title="À propos et contacts", icon="ℹ️"),
+        st.Page("views/equipe_publique.py", title="Equipe", icon="👥"),
         st.Page("views/apparence.py", title="Apparence", icon="🎨"),
     ],
 }
