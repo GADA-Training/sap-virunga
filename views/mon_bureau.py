@@ -2,7 +2,7 @@ import sys, pathlib, html
 sys.path.append(str(pathlib.Path(__file__).resolve().parent.parent))
 import streamlit as st
 import pandas as pd
-import auth, equipe, depots, store
+import auth, equipe, depots, store, espace_bureau
 from moteur import charger, valider_df, COLONNES
 from style import entete, verre, tuile
 
@@ -189,3 +189,13 @@ with T["📓 Journal"]:
                                    for e in reversed(mes)]), hide_index=True, width="stretch")
     else:
         st.caption("Journal vide.")
+
+
+st.markdown("---")
+t_org, t_dep, t_blog = st.tabs(["?? Organigramme & Bios", "?? D?p?ts & Galerie", "?? Blog Markdown"])
+with t_org:
+    espace_bureau.afficher_organigramme_et_bios(u)
+with t_dep:
+    espace_bureau.afficher_depots_et_galerie_bureau(u, mode="bureau")
+with t_blog:
+    espace_bureau.afficher_blog_markdown(u)
